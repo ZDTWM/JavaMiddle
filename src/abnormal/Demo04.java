@@ -27,10 +27,10 @@ public class Demo04 {
 			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 			Date d = sdf.parse("2016-12-12");
 		} catch (FileNotFoundException e) {
-			
+			System.out.println("d:/LOL.exe不存在");
 			e.printStackTrace();
 		}catch (ParseException e) {
-			
+			System.out.println("日期格式解析错误");
 			e.printStackTrace();
 		}
 		
