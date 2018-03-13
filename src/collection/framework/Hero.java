@@ -11,7 +11,7 @@ public class Hero {
 	
 	//增加一个初始化name的构造方法
 	public Hero(String name){
-		
+		this.name = name;
 	}
 	
 	//重写toString 方法
